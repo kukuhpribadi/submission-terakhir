@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np 
  
 #load model and scaler
-model = joblib.load("model/model.joblib")
+model = joblib.load("./model/model.joblib")
 
 st.markdown( """ <style> .title { text-align: center; } </style> """, unsafe_allow_html=True )
 
